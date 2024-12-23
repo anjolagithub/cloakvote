@@ -1,0 +1,9 @@
+[calimero]
+network = "starknet"
+rpc_url = "https://starknet-rpc-url" # Replace with the appropriate Starknet RPC URL
+
+[deploy]
+contract_address = "0xYourContractAddress" # The address where your contract will be deployed
+
+[signer]
+private_key = "0xYourPrivateKey"  # Signer's private key for deployment and interactions
